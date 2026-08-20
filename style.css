@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: #1a1a2e;
+  color: #eee;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #aaa;
+}
+
+.input-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 0.3rem;
+}
+
+input {
+  width: 200px;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  border: 1px solid #333;
+  border-radius: 6px;
+  background: #16213e;
+  color: #fff;
+  text-align: center;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem 2rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #0f3460;
+  color: #fff;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #1a508b;
+}
+
+.hidden {
+  display: none;
+}
+
+.display {
+  margin: 2rem 0;
+}
+
+.time {
+  font-size: 3rem;
+  font-variant-numeric: tabular-nums;
+  font-family: 'SF Mono', 'Consolas', monospace;
+  color: #e94560;
+}
+
+.cost {
+  font-size: 4rem;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+  margin: 0.5rem 0;
+}
+
+.perSecond {
+  font-size: 1rem;
+  color: #888;
+}
+
+.summary {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background: #16213e;
+  border-radius: 8px;
+}
+
+.summary-label {
+  display: block;
+  font-size: 0.75rem;
+  color: #888;
+  margin-bottom: 0.3rem;
+}
+
+.summary-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+
+.people-controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.person-btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  min-width: 60px;
+}
+
+#removePersonBtn {
+  background: #333;
+}
+
+#removePersonBtn:hover {
+  background: #555;
+}
+
+#addPersonBtn {
+  background: #0f3460;
+}
+
+#addPersonBtn:hover {
+  background: #1a508b;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+#stopBtn {
+  background: #e94560;
+}
+
+#stopBtn:hover {
+  background: #c73652;
+}
+
+#resetBtn {
+  background: #333;
+}
+
+#resetBtn:hover {
+  background: #555;
+}
